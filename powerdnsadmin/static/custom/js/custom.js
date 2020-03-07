@@ -285,3 +285,17 @@ function timer(elToUpdate, maxTime) {
 
     return interval;
 }
+function(){
+    $(".reveal").on('click',function() {
+    var $pwd = $(".pwd");
+    if ($pwd.attr('type') === 'password') {
+        $pwd.attr('type', 'text');
+        $("#buttonreveal").attr('class', 'glyphicon glyphicon-eye-open');
+
+    } else {
+        $pwd.attr('type', 'password');
+        $("#buttonreveal").attr('class', 'glyphicon glyphicon-eye-close');
+    }
+});
+}
+    
