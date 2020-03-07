@@ -36,3 +36,8 @@ table td {
 .user-footer {
     background-color: #222d32 !important;
 }
+.btn.btn-default.reveal {
+    padding: 6px 7px !important;
+    width: 34px;
+    height: 34px;
+}
